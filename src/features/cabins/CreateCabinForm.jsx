@@ -13,6 +13,7 @@ function CreateCabinForm() {
 	const { register, handleSubmit, reset, getValues, formState } = useForm();
 	const { errors } = formState;
 
+	//react query
 	const queryClient = useQueryClient();
 
 	const { mutate, isLoading: isCreating } = useMutation({
