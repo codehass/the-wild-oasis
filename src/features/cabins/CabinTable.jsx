@@ -4,6 +4,7 @@ import Spinner from "../../ui/Spinner";
 import CabinRow from "./CabinRow";
 import Table from "../../ui/Table";
 import { useSearchParams } from "react-router-dom";
+import Empty from "../../ui/Empty";
 
 function CabinTable() {
 	const { isLoading, data: cabins } = useQuery({
@@ -11,6 +12,8 @@ function CabinTable() {
 		queryFn: getCabins,
 	});
 	const [searchParams] = useSearchParams();
+
+	if (!cabins.length) return <Empty resourceName="Cabins" />;
 
 	if (isLoading) return <Spinner />;
 
