@@ -17,6 +17,7 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
+  - [Login](#login)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -80,6 +81,13 @@ To run the project, execute the following command:
 
 ```sh
   npm run dev
+```
+
+### Login
+
+```sh
+  email: test@test.com
+  password: 987654321
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
