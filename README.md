@@ -50,7 +50,7 @@ The Wild Oasis is a web application for cabin management system designed for hot
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](the-wild-oasis-codehass.netlify.app/login)
+- [Live Demo Link](https://the-wild-oasis-ten-gray.vercel.app/login)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,8 +86,8 @@ To run the project, execute the following command:
 ### Login
 
 ```sh
-  email: test@test.com
-  password: 987654321
+  email: hassan@test.com
+  password: 12345678
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
